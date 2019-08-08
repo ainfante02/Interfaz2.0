@@ -6,7 +6,6 @@
                 {
                     id       : 'applications',
                     title    : '',
-                    translate: 'NAV.APPLICATIONS',
                     type     : 'group',
                     icon     : 'apps',
                     children : [
@@ -19,11 +18,12 @@
                             icon     : 'account_box',
                             url      : '/apps/contacts'
                         },
+
+                    
                            
             {
                 id       : 'Organizaciones',
                 title    : 'Organizaciones',
-                translate: 'NAV.SAMPLE.TITLE',
                 type     : 'item',
                 icon     : 'email',
                 url      : '/sample',
@@ -33,15 +33,18 @@
             {
                 id       : 'Actores',
                 title    : 'Actores',
-                translate: 'NAV.SAMPLE.TITLE',
                 type     : 'item',
-                icon     : 'email',
-                url      : '/actores',
-            
-            }
-
-
-                       
+                icon     : 'web_asset',
+                url      : '/actores'
+            },
+            // {
+            //     id   : 'forms',
+            //     title: 'Formulario',
+            //     type : 'item',
+            //     icon : 'web_asset',
+            //     url  : '/ui/forms'
+            // },
+         
                        
                     ]
                 },

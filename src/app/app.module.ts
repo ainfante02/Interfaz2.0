@@ -29,7 +29,10 @@ const appRoutes: Routes = [
         path        : 'apps',
         loadChildren: './main/apps/apps.module#AppsModule'
     },
-
+    {
+        path        : 'ui',
+        loadChildren: './main/ui/ui.module#UIModule'
+    },
 
     {
         path      : '**',

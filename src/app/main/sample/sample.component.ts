@@ -12,15 +12,15 @@ import { locale as turkish } from './i18n/tr';
 })
 export class SampleComponent
 {
-    /**
+    /*
      * Constructor
      *
      * @param {FuseTranslationLoaderService} _fuseTranslationLoaderService
      */
-    constructor(
-        private _fuseTranslationLoaderService: FuseTranslationLoaderService
-    )
-    {
-        this._fuseTranslationLoaderService.loadTranslations(english, turkish);
-    }
+    // constructor(
+    //     private _fuseTranslationLoaderService: FuseTranslationLoaderService
+    // )
+    // {
+    //     this._fuseTranslationLoaderService.loadTranslations(english, turkish);
+    // }
 }
